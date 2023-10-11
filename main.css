@@ -162,23 +162,6 @@ form button {
     max-width: 120px;
 }
 
-.whatsapp-button {
-    position: fixed;
-    bottom: 20px; /* Ajuste essa propriedade para controlar a distância da parte inferior */
-    right: 20px; /* Ajuste essa propriedade para controlar a distância da direita */
-    background-color: #25d366; /* Cor de fundo do botão do WhatsApp */
-    color: #fff; /* Cor do texto */
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-  }
-  
-  .whatsapp-button img {
-    width: 20px; /* Ajuste o tamanho do ícone do WhatsApp conforme necessário */
-    margin-right: 10px; /* Espaço entre o ícone e o texto */
-  }
 
 footer li{
     list-style: none;
@@ -188,4 +171,54 @@ footer li{
 footer img {
     height: 32px;
 }
+
+@media (max-width: 640px){
+     .container {
+        max-width: 80%;
+        width: 100%;
+       
+              
+    }
+
+    #sobre-a-loja img {
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    #sobre-a-loja h2 {
+        text-align: center;
+    }
+
+    #sobre-a-loja p {
+        text-align: justify;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #sobre-a-loja > .container {
+        display: block;
+       
+    }
+
+    nav li {
+        list-style: none;
+        display: inline;
+        margin-left: 15px;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+   
+    footer p {
+       font-size: 10px;
+       display:inline-block;
+       
+    }
+
+  
+}
+
+    
+
 
